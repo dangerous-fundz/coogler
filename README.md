@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="public/Cougr.png" width="120" alt="Cougr logo" />
+  <img src="public/Cougr.png" width="120" alt="Coogler logo" />
 </p>
 
-<h1 align="center">Cougr</h1>
+<h1 align="center">Coogler</h1>
 
 <p align="center">
   <strong>The on-chain game engine for Stellar - ECS, privacy, and account abstraction in one crate</strong>
@@ -10,19 +10,19 @@
 
 <p align="center">
   <a href="https://crates.io/crates/cougr-core"><img src="https://img.shields.io/crates/v/cougr-core.svg" alt="crates.io" /></a>
-  <a href="https://github.com/salazarsebas/Cougr/actions/workflows/core.yml"><img src="https://github.com/salazarsebas/Cougr/actions/workflows/core.yml/badge.svg" alt="Core CI" /></a>
+  <a href="https://github.com/dangerous-fundz/coogler/actions/workflows/core.yml"><img src="https://github.com/dangerous-fundz/coogler/actions/workflows/core.yml/badge.svg" alt="Core CI" /></a>
   <a href="https://stellar.org"><img src="https://img.shields.io/badge/Stellar-Soroban-blue?logo=stellar" alt="Stellar" /></a>
   <a href="https://www.rust-lang.org"><img src="https://img.shields.io/badge/Rust-1.91%2B-orange?logo=rust" alt="Rust" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="License" /></a>
 </p>
 
-Cougr is the framework for building on-chain games on Stellar. It gives you an
+Coogler is the framework for building on-chain games on Stellar. It gives you an
 Entity Component System (ECS), built-in ZK proof tooling, session keys, and contract
 standards - all compiled to a single `no_std` crate that runs natively on Soroban.
 
-## Why Cougr on Stellar
+## Why Coogler on Stellar
 
-| Capability | Cougr on Stellar |
+| Capability | Coogler on Stellar |
 |---|---|
 | Language | Rust |
 | ECS runtime | `SimpleWorld`, `ArchetypeWorld`, `GameApp` |
@@ -224,7 +224,7 @@ app.run(&env).unwrap();
 
 ## Zero-knowledge and hidden state
 
-Cougr bundles the full ZK toolchain for on-chain games - all verification runs on
+Coogler bundles the full ZK toolchain for on-chain games - all verification runs on
 Stellar's X-Ray host functions at host speed:
 
 ```rust
@@ -296,6 +296,7 @@ pause.pause(&env);
 |---|---|
 | `src/` | Core framework |
 | `cli/` | `cougr-cli` - the `cougr` binary and its embedded project templates |
+| `clients/` | Frontend web and game clients (including the Coogler React client for Murdoku) |
 | `examples/spawn_and_move/` | Canonical starter - spawn + movement with ECS events |
 | `examples/tic_tac_toe/` | Turn-based game with rich components and address ownership |
 | `examples/*/` | 20+ standalone game contracts (asteroids, chess, battleship, ...) |
