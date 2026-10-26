@@ -1,6 +1,6 @@
-# Murdoku Frontend
+# Coogler
 
-The frontend for the Murdoku game is a Vite-powered React web application that provides the user interface for browsing, playing, and creating murder mystery logic puzzles.
+**Coogler** is the Vite-powered React web client for the [Murdoku smart contract](../../examples/murdoku), providing a responsive user interface for browsing, playing, and creating murder mystery logic puzzles on Stellar Soroban.
 
 ## Responsibilities & Scope
 
@@ -18,7 +18,7 @@ The frontend for the Murdoku game is a Vite-powered React web application that p
 
 ## Environment Variables
 
-Copy `.env.example` to `.env` in the frontend directory:
+Copy `.env.example` to `.env` in the client directory:
 ```bash
 cp .env.example .env
 ```
@@ -34,7 +34,7 @@ Define the following environment variables:
 
 ## Development & Build Commands
 
-Run the following commands inside the `examples/murdoku/frontend` directory:
+Run the following commands inside the `clients/murdoku-web` directory:
 
 ```bash
 # Install dependencies

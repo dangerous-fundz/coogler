@@ -126,16 +126,16 @@ Murdoku is built on the core APIs of the Cougr framework.
 
 ---
 
-## Frontend Setup
+## Frontend Setup (Coogler Web Client)
 
 ### 1. Requirements
 * Node.js v18 or later
 * Stellar CLI installed and configured
 
 ### 2. Run Locally
-Navigate to the frontend directory:
+Navigate to the client directory:
 ```bash
-cd examples/murdoku/frontend
+cd clients/murdoku-web
 ```
 
 Copy the environment template:
